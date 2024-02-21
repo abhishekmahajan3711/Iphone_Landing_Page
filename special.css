@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.mainimage img {
+    position: fixed;
+    height: 78%;
+    width: 40%;
+    padding: 5%;
+    border-right: solid gray 2px;
+    float: left;
+}
+
+.info {
+    float: right;
+    width: 46%;
+    padding: 2% 2%;
+}
+
+.infot {
+    text-decoration: underline;
+}
+
+.highlight {
+    display: flex;
+    flex-direction: row;
+}
+
+.highlight ul li {
+    font-weight: 500;
+}
+
+ul {
+    line-height: 40px;
+}
+
+.pd {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.p1 {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    border: solid gray 0.2px;
+
+}
+
+.p1 img {
+    height: 150px;
+    width: 150px;
+}
+
+.p11 {
+    width: 80%;
+}
+
+.p11t {
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: large;
+}
+
+.buybutton {
+    border: solid black 2px;
+    height: 30px;
+    width: 120px;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5%;
+}
+
+.buybutton a {
+    text-decoration: none;
+    color: white;
+}
